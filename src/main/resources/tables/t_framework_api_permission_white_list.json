@@ -1,0 +1,37 @@
+{
+  "add": [
+    {
+      "propertyName": "apiDesc",
+      "require": true,
+      "max": 400,
+      "min": 10
+    }
+  ],
+  "update": [
+    {
+      "propertyName": "id",
+      "require": true
+    },
+    {
+      "propertyName": "apiDesc",
+      "require": true,
+      "max": 400
+    }
+  ],
+  "delete": [
+    {
+      "propertyName": "id",
+      "require": true
+    }
+  ],
+  "pagination": [
+    {
+      "propertyName": "apiDesc",
+      "likeQuery": true
+    },
+    {
+      "propertyName": "apiAddress",
+      "likeQuery": false
+    }
+  ]
+}
